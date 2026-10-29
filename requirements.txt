@@ -1,0 +1,21 @@
+kagglehub
+
+# Core data processing and visualization
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+
+# Time series specification
+scipy
+statsmodels
+
+# Jupyter environment
+jupyter
+ipykernel
+
+# TensorFlow with NVIDIA CUDA dependencies for Linux/WSL2
+# The [and-cuda] extra includes TensorFlow itself; do not add a separate "tensorflow==..." line because it would be redundant and could cause confusion.
+# Just remove the [and-cuda] if you don't use Linux/WSL2 or any NVIDIA GPU
+tensorflow[and-cuda]==2.21.0
